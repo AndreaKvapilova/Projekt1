@@ -81,8 +81,6 @@ if (user_name, password) in registred_user.registred_user.items():
     print(separator)
 
     #visualization of program - graph of lenght words
-    
-
     len_occur = statistics.len_occur_word(prepared_text)
     max_lenght = max(len_occur.values()) + 2 #adjustment to the longest word in len_occur
     print(f"{"LEN":>3}|{"OCCURENCES":^{max_lenght}}|{"NR.":>3}")
